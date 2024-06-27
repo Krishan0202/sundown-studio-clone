@@ -324,9 +324,10 @@ nav {
   background-position: center;
 }
 #page4 {
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   background-color: #efeae3;
+  padding: 1vw 2vw;
 }
 #page5 {
   height: 100vh;
@@ -346,6 +347,7 @@ nav {
   justify-content: flex-end;
   flex-direction: column;
   padding: 1vw 3vw;
+  /* margin-top: 6vw 0; */
 }
 #footer h1 {
   font-size: 23vw;
@@ -365,17 +367,19 @@ nav {
 }
 #right-div {
   width: 25vw;
-  border-bottom: 1px solid #dadada;
 }
-#right-div input {
+.input {
+  border-bottom: 1px solid #dadada;
+  position: relative;
+}
+.input input {
   border: none;
-  margin-top: 1vw;
+  /* margin-top: 1vw; */
+  text-align: center;
   background-color: #fe320a;
   color: #fff;
-
-  /* height: 10vh; */
 }
-#right-div button {
+.input button {
   background-color: #fe320a;
   border: none;
   width: 10vw;
@@ -390,4 +394,33 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-/* 2.53.25 */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  border-left: 1px solid #585757;
+  padding: 0 2vw;
+}
+/* 
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.swiper-slide {
+  width: 30%;
+}
+
+.swiper-slide p {
+  padding: 1vw 0;
+  color: #363333;
+}
+.swiper-slide img {
+  width: 10vw;
+}
+/* 3.07.55 */
